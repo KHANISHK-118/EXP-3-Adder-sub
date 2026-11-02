@@ -19,7 +19,6 @@ half_add_sub_tb.v	Stimulus and VCD generation
 
 ### Verilog Program
 ```
-```
 // gedit half_add_sub.v
 module half_adder (
     input  wire A,
