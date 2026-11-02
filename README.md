@@ -38,8 +38,6 @@ module half_subtractor (
     assign Diff   = A ^ B;      // XOR
     assign Borrow = (~A) & B;  // A' . B
 endmodule
-```
-```
 ### Testbench Program
 // gedit tb3.v
 module tb3;
